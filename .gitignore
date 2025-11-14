@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data (videos, frames)
+data/
+data/*
+!data/.gitkeep   # allow empty folder tracking if you want
+
+# Models & checkpoints
+models/
+models/*
+experiments/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#Tests
+utils_gpu_test/
