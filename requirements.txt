@@ -1,9 +1,10 @@
-torch
-torchvision
-torchaudio
-opencv-python
 numpy
-tqdm
-pandas
+opencv-python
+pillow
 matplotlib
+tqdm
+scipy
+pandas
+pyyaml
 tensorboard
+labelImg

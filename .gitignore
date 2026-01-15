@@ -1,37 +1,22 @@
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
 # Virtual environment
 .venv/
-venv/
-env/
 
-# Data (videos, frames)
+# VS Code
+.vscode/
+
+# Data & images (DO NOT UPLOAD)
+datasets/
+Photo/
 data/
-data/*
-!data/.gitkeep   # allow empty folder tracking if you want
 
-# Models & checkpoints
-models/
-models/*
-experiments/
+# YOLO outputs & weights
+runs/
+runs_detect/
+*.pt
 
 # Logs
 *.log
 
-# Jupyter
-.ipynb_checkpoints/
-
-# IDE / Editor files
-.vscode/
-.idea/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-#Tests
-utils_gpu_test/
+# Python cache
+__pycache__/
+*.pyc
