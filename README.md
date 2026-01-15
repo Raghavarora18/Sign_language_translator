@@ -18,13 +18,14 @@ The project is built using **YOLO-based object detection** for hand gesture reco
 *  Dataset and raw images excluded for clean version control
 
 ---
-Technology Stack
+## Technology Stack
 
-Python
+* Python
 * YOLO (Object Detection)
 * OpenCV for real-time video capture
 * NumPy / PyTorch for model handling
 * Git & GitHub for version control
+---
 
 ## Author
 Raghav Arora
